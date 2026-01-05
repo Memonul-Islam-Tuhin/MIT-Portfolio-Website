@@ -1,0 +1,1032 @@
+/*reset code start here  */
+
+/* responsive for desktop design (up to 1200px) section end here  */
+
+* {
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  resize: none;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* reset code end here  */
+
+/* for mobile section start here  */
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2:hover {
+  color: indigo;
+}
+
+a {
+  color: azure;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.dotted-hr {
+  border: dotted 6px wheat;
+  border-bottom: none;
+  margin: 20px auto;
+  width: 70%;
+}
+
+/* column design for mobile phone section start here  */
+
+/* column design for mobile phone section end here  */
+
+.navbar {
+  background-color: #4682b4;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.nav-logo:hover {
+  transform: scale(1.2);
+}
+
+.nav-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-heading {
+  font-size: 32px;
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-heading:hover {
+  color: indigo;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.8s ease;
+}
+
+.navbar-menu a:hover {
+  background-color: indigo;
+  padding: 3px;
+  border-radius: 3px;
+  text-decoration: underline;
+  color: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+.navbar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* for mobile section end here  */
+
+/* profile section design start here  */
+
+.profile {
+  position: relative;
+  padding: 130px 10px;
+  text-align: center;
+}
+
+.profile .top-sun-img {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+  width: 20vh;
+  height: 20vh;
+  transition: all 2s;
+}
+
+.profile .top-sun-img:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.profile-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile-desc h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.profile-desc p {
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.profile .bottom-sun-img {
+  bottom: 20px;
+  left: 60px;
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+  transition: all 2s;
+}
+
+.profile .bottom-sun-img:hover {
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.profile::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* profile section design end here  */
+
+/* about me section start here  */
+
+.about-me {
+  background-color: #2c97a7;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.dotted-hr {
+  border: none;
+  border-top: 5px dotted white;
+  width: 60px;
+  margin: 0 auto 40px auto;
+}
+
+.about-me-img,
+.about-me-desc {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.about-me-img {
+  width: 300px;
+  margin-right: 50px;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 8px solid rgba(255, 255, 255, 0.2);
+  object-fit: cover;
+}
+
+.profile-img:hover {
+  opacity: 0.5;
+}
+
+.about-me-desc {
+  max-width: 600px;
+}
+
+.about-me-desc p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-me-hr {
+  border: 0;
+  border-top: 3px solid white;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.about-me-desc a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cv-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #b33939;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.cv-button:hover {
+  background-color: #8e2a2a;
+  transform: scale(1.2);
+}
+
+.about-me::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* about me section end here  */
+
+/* professional experiance section start here  */
+
+.professional-experience {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 15px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.professional-experience .skills {
+  min-width: 400px;
+}
+
+.work-experience .card-desc {
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.education .card-desc {
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.card {
+  background-color: #a39b98;
+  flex: 1;
+  text-align: center;
+  padding-bottom: 30px;
+  min-height: 550px;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+}
+
+.card:hover {
+  transform: scale(1);
+  box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon {
+  padding: 30px 0;
+}
+
+.card-icon .rounded-img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 15px;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon .rounded-img:hover {
+  opacity: 0.5;
+}
+
+.card-title {
+  background-color: #4a4a4a;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.card-title h2 {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.work-experience .card-desc {
+  gap: 20px;
+}
+
+.work-experience .card-desc ol li a:hover {
+  color: indigo;
+  border-radius: 3px;
+  text-decoration: underline;
+}
+
+.education .card-desc {
+  padding: 15px;
+  margin-right: 20px;
+  line-gap-override: 10px;
+  margin-bottom: 5px;
+}
+
+.card-desc {
+  padding: 15px;
+  margin-right: 10px;
+  gap: 20px;
+}
+
+.skills .skills-container {
+  height: 45vh;
+}
+
+.skills .skills-container ul li {
+  bottom: 50px;
+}
+
+#skills-id .skills-container ul {
+  list-style: none;
+  padding: 0 30px;
+  margin: 0;
+  text-align: left;
+}
+
+#skills-id .skills-container ul li {
+  font-weight: bold;
+  font-size: 13px;
+  color: #222;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.skills-container li {
+  font-weight: bolder;
+  list-style: none;
+  margin: 30px 10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.skills-container li::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(86, 86, 153, 0.5);
+  border-radius: 1000px;
+}
+
+.skills-container li::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 0;
+  height: 10px;
+  background-color: rgb(86, 86, 153, 1);
+  border-radius: 1000px;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.skills-container li.html::after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 90%;
+    background-color: orange;
+  }
+}
+
+.skills-container li.css::after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+    width: 70%;
+    background-color: orange;
+  }
+}
+
+.skills-container li.js::after {
+  animation-name: js;
+}
+
+@keyframes js {
+  to {
+    width: 50%;
+    background-color: orange;
+  }
+}
+
+.skills-container li.tailwind::after {
+  animation-name: tailwind;
+}
+
+@keyframes tailwind {
+  to {
+    width: 60%;
+    background-color: orange;
+  }
+}
+
+.skills-container li.react::after {
+  animation-name: react;
+}
+
+@keyframes react {
+  to {
+    width: 50%;
+    background-color: orange;
+  }
+}
+
+.skills-container li.git::after {
+  animation-name: git;
+}
+
+@keyframes git {
+  to {
+    width: 80%;
+    background-color: orange;
+  }
+}
+
+.skills-container li.softskills::after {
+  animation-name: softskills;
+}
+
+@keyframes softskills {
+  to {
+    width: 75%;
+    background-color: orange;
+  }
+}
+
+.professional-experience::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.work-experience,
+.education,
+.skills {
+  flex: 1;
+  min-width: 300px;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-desc {
+  flex-grow: 1;
+}
+
+/* professional experiance section end here  */
+
+/* achievement section start here  */
+
+.achievement-contact {
+  background-color: #3b8d99;
+  color: white;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.achievement-contact h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.dotted-hr {
+  border: none;
+  border-top: 5px dotted white;
+  width: 60px;
+  margin: 10px auto 30px auto;
+}
+
+.achievement,
+.contact,
+.contact-links {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.achievement p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact button {
+  background-color: #0b1d26;
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  margin-left: 45px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.contact button:hover {
+  background-color: gray;
+  transform: scale(1.2);
+}
+
+.media-button {
+  display: grid;
+  grid-template-columns: repeat(2, 60px);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.media-button .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+}
+
+.media-button .btn:hover {
+  transform: scale(1.2);
+  background-color: gray;
+}
+
+.media-button i {
+  font-size: 30px;
+}
+
+.achievement-contact::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* achievement section end here  */
+
+/* footer section start here  */
+
+.footer {
+  background-color: #4682b4;
+  color: white;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  border-top: 5px solid #2c7a7b;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.8s ease;
+}
+
+.footer-menu a:hover {
+  background-color: indigo;
+  padding: 3px;
+  border-radius: 3px;
+  text-decoration: underline;
+  color: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+.footer-desc {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* footer section end here  */
+
+/* responsive for desktop design (up to 1200px) section end here  */
+
+/* Mobile Responsive Design (Up to 600px) start here */
+@media (max-width: 600px) {
+  .dotted-hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+  }
+
+  .navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .top-sun-img,
+  .bottom-sun-img {
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  .profile-desc h1 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .profile::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* --- About Me Section start here --- */
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .about-me-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .about-me-desc {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .cv-button {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+  }
+
+  .about-me::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* --- About Me Section start here --- */
+
+  /* --- Professional Experience (Cards) section start here --- */
+
+  .professional-experience {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .professional-experience::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* --- Professional Experience (Cards) section end here --- */
+
+  /* --- Achievement & Contact Section start here --- */
+  .achievement-contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .achievement-contact .achievement {
+    display: block;
+    margin: 0;
+    text-align: start;
+    padding: 30px;
+    min-width: 100%;
+  }
+
+  .achievement,
+  .contact,
+  .contact-links {
+    max-width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .media-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .achievement-contact::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* --- Achievement & Contact Section start here --- */
+
+  /* --- Footer section start here  --- */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 15px;
+  }
+
+  .footer::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* --- Footer section start here  --- */
+}
+
+/* Mobile Responsive Design (Up to 600px) start here */
+
+/* Mobile Responsive Design (Up to 768px) start here */
+
+@media (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  .navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .about-me-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .about-me::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .professional-experience {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    min-height: 350px;
+  }
+
+  .professional-experience::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .contact form button {
+    display: block;
+    margin: 20px auto;
+  }
+
+  .contact::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  .footer::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* Mobile Responsive Design (Up to 768px) end here */
+
+/* Mobile Responsive Design (Up to 992px) start here */
+
+@media (max-width: 992px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 5px;
+  }
+
+  .navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .about-me-img {
+    margin-left: 60px;
+  }
+
+  .cv-button {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+
+  .about-me::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .professional-experience {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .professional-experience::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .achievement-contact .contact button {
+    display: inline-table;
+    gap: 20px;
+    margin: 0 auto;
+    margin-left: 25px;
+  }
+
+  .achievement-contact::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* Mobile Responsive Design (Up to 992px) end here */
