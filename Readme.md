@@ -29,3 +29,11 @@ portfolio-website/
 ├── images/
 │ └── profile.jpg
 └── README.md
+
+
+
+
+
+🔹 How to Run This Project
+
+git clone https://github.com/Memonul-Islam-Tuhin/MIT-Portfolio-Website.git
