@@ -1,618 +1,522 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anisul Islam</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memonul Islam Tuhin</title>
 
     <!-- adding google font cdn here  -->
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- adding font awesome cdn here  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <!-- for mobile phone -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fevicon image  -->
+    <link rel="shortcut icon" href="./images/img1.png" type="image/x-icon" />
 
     <!-- for tablets -->
-    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 600px)">
+    <link
+      rel="stylesheet"
+      href="tablet.css"
+      media="screen and (min-width: 600px)"
+    />
 
-     <!-- for desktops -->
-    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 992px)">
+    <!-- for desktops -->
+    <link
+      rel="stylesheet"
+      href="desktop.css"
+      media="screen and (min-width: 992px)"
+    />
 
     <!-- for large laptop or desktops -->
-      <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 1200px)">
-    
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="desktop.css"
+      media="screen and (min-width: 1200px)"
+    />
+  </head>
 
+  <body>
     <!-- navbar starts here  -->
     <div class="navbar">
-        <div class="nav-logo col-2">
-            <img src="images/logo.png" alt="nav logo">
-        </div>
-        <div class="nav-heading col-4">
-            <h1>Anisul Islam</h1>
-        </div>
-        <div class="navbar-menu col-6">
-            <a href="#">Home</a>
-            <a href="#tutorial-id">Tutorials</a>
-            <a href="#about-me-id">About Me</a>          
-            <a href="#skill-id">Skills</a>
-            <a href="#contact-me">Contact</a>
-        </div>
+      <div class="nav-logo col-2">
+        <img src="./images/logo.png" alt="nav logo" />
+      </div>
+      <div class="nav-heading col-4">
+        <h1>Memonul Islam</h1>
+      </div>
+      <div class="navbar-menu col-6">
+        <a href="#">Home</a>
+        <a href="#project">Projects</a>
+        <a href="#about-me-id">About</a>
+        <a href="#skill-id">Skills</a>
+        <a href="#contact-me">Contact</a>
+      </div>
     </div>
     <!-- navbar ends here  -->
 
-
-
     <!-- profile div starts here  -->
     <div class="profile">
-        <img class="top-weather-icon" src="images/weather.png" alt="top weather icon">
-        <div class="profile-desc">
-            <h1> I am a Computer Teacher <br> & <br> Web Developer</h1>
-            <p>Hi! My name is Anisul Islam. Welcome to my personal page that I’ve designed to showcase my skills and expertise that I’ve accumulated over the year. </p>
-        </div>
-        <img class="bottom-weather-icon" src="images/weather.png" alt="bottom weather icon">
+      <img
+        class="top-weather-icon"
+        src="./images/sun.png"
+        alt="top weather icon"
+      />
+      <div class="profile-desc">
+        <h1>
+          I am an Aspiring Undergraduate <br />
+          & <br />
+          Backend Developer
+        </h1>
+        <p>
+          Hi! My name is Memonul Islam Tuhin. I have completed my HSC (Science)
+          and I am learning backend web development. I work with HTML, CSS,
+          GitHub, JavaScript, Tailwind CSS and Node.js to build modern and
+          responsive websites.
+        </p>
+      </div>
+      <img
+        class="bottom-weather-icon"
+        src="./images/sun.png"
+        alt="bottom weather icon"
+      />
     </div>
     <!-- profile div ends here  -->
 
-    
-    <!-- tutorial div starts here  -->
+    <!-- projects div starts here  -->
 
-    <div class="tutorial" id="tutorial-id">
+    <div class="project" id="project">
+      <h2>Project Lists</h2>
+      <hr class="dotted-hr" />
 
-        <h2>Tutorial Playlists</h2>
-        <hr class="dotted-hr">
+      <div class="all-projects">
+        <div class="row">
+          <div class="project-card col-3 col-s-6">
+            <a href="https://github.com/Memonul-Islam-Tuhin/MIT-Blog-Site">
+              <img src="./images/MIT-Blog-Site.jpg" alt="Blog Site" />
+              <div class="project-title">
+                <h5>MIT-Blog-Site</h5>
+              </div>
+            </a>
+          </div>
 
-        <div class="all-subjects">
-            <div class="row">
-               
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3o8Y-CKhmyodbfHAc9VSVOv&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/ict.jpg" alt="hsc ict cover">
-                        <div class="subject-title">
-                            <h5>HSC ICT</h5>
-                        </div>
-                    </a>
-                </div>
+          <div class="project-card col-3 col-s-6">
+            <a
+              href="https://github.com/Memonul-Islam-Tuhin/rest-api-using-mongodb"
+            >
+              <img src="./images/rest-api-with-db.jpg" alt="api with db" />
+              <div class="project-title">
+                <h5>Rest-api-using-mongodb</h5>
+              </div>
+            </a>
+          </div>
 
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3p5OI88r3ob-otmKqIm_DbS&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/IP.jpg" alt="ip addressing cover">
-                        <div class="subject-title">
-                            <h5>IP addressing and subnetting Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
+          <div class="project-card col-3 col-s-6">
+            <a
+              href="https://github.com/Memonul-Islam-Tuhin/ejs-adding-programming-language-app"
+            >
+              <img src="./images/Ejs.jpg" alt="programming language app" />
+              <div class="project-title">
+                <h5>Ejs-adding-programming-language-app</h5>
+              </div>
+            </a>
+          </div>
 
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3o8Y-CKhmyodbfHAc9VSVOv&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/C-programming-Cover.jpg" alt="c cover">
-                        <div class="subject-title">
-                            <h5>C programming Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3rz5XqMsTk41_j15_6682BN" alt="ict playlist">           
-                        <img src="images/python.jpg" alt="python cover">
-                        <div class="subject-title">
-                            <h5>Python Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>            
-               
-           </div>
-    
-    
-           <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3rc4ZDQh0Rae_7s0CQxpT68&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/ICT-Cover-3.1-1.jpg" alt="ict 3.1 cover">
-                        <div class="subject-title">
-                            <h5>HSC ICT Chapter 3.1 (Number System)</h5>
-                        </div>
-                    </a>
-                </div>
-        
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3q0ZKeXtF--CZ0PdH1sSbYL&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/C.jpg" alt="c++ cover">
-                        <div class="subject-title">
-                            <h5>C++ Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="#" alt="ict playlist">           
-                        <img src="images/discrete-math eng.jpg" alt="discrete english cover">
-                        <div class="subject-title">
-                            <h5>Discrete Math English Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oFAaeJxjDWA8kEbMutzV6V&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/AI-cover.jpg" alt="ai bangla cover">
-                        <div class="subject-title">
-                            <h5>Artificial Intelligence Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-    
-    
-            <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3padw-LmlYWk9-1gRTQ_3bS&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/ICT-Cover4.jpg" alt="ict 3.2 cover">
-                        <div class="subject-title">
-                            <h5>HSC ICT Chapter 3.2 (Digital Device)</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oTxQhx2kejYmQn6qtRULCD&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Pattern-cover.jpg" alt="pattern c cover">
-                        <div class="subject-title">
-                            <h5>Pattern printing in C programming (Bangla)</h5>
-                        </div>
-                    </a>
-                </div>
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3rYy9DVhk28m8enSo8xxiZ3&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/discrete-math.jpg" alt="discrete bangla cover">
-                        <div class="subject-title">
-                            <h5>Discrete Math Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3rRVV7oeML93OVAxqQ-CvzV&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/AI-cover-English-1.jpg" alt="ai english cover">
-                        <div class="subject-title">
-                            <h5>Artificial Intelligence English Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-    
-            <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3rFbxSU4FDLjoLOf0khoOLM&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/ICT-Cover4.2-1.jpg" alt="ict chapter 4 cover">
-                        <div class="subject-title">
-                            <h5>HSC ICT Chapter 4 (Web design & HTML)</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oAZUB2QXR-dZac0c9HNyRa&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/java-cover.jpg" alt="java cover">
-                        <div class="subject-title">
-                            <h5>Java Bangla Tutorials for Beginners | CORE Java</h5>
-                        </div>
-                    </a>
-                </div>
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3rAHKr6IteF5kdgN6BorH9l&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Java-Swing-cover.jpg" alt="java swing cover">
-                        <div class="subject-title">
-                            <h5>Java Swing Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3p9xzYLFGdfYliIRBLVDRV5&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Android-Cover.jpg" alt="android cover">
-                        <div class="subject-title">
-                            <h5>Android Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oyeTjSeouVTyLPgS28OoGm&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/ICT-Cover5.1.jpg" alt="ict chapter 5 cover">
-                        <div class="subject-title">
-                            <h5>HSC ICT Chapter 5 (C programming)</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3r_SuT0AnOEoElfQQPgkBIq&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/operating-system.jpg" alt="os cover">
-                        <div class="subject-title">
-                            <h5>Operating System</h5>
-                        </div>
-                    </a>
-                </div>
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3qw5pu16QgnKNj91Rnjoyd0&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Theory-Of-Computation.jpg" alt="toc cover">
-                        <div class="subject-title">
-                            <h5>Theory of Computation Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oWTwTgILA7v9oysoDgkJDg&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/compilar.jpg" alt="compiler cover">
-                        <div class="subject-title">
-                            <h5>Compiler Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3ohVxegHxuyvg1GsA48rCC3&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/ICT-Cover6.jpg" alt="ict chapter 6 cover">
-                        <div class="subject-title">
-                            <h5>HSC ICT Chapter 6 (Database Management)</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3qLcx9DvVDWmNJ7riPvxzCD&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Database-cover.jpg" alt="database cover">
-                        <div class="subject-title">
-                            <h5>Database Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oKFrSOo4Kwns1-vTZmKQ7z&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Numerical-Methods.jpg" alt="numerical cover">
-                        <div class="subject-title">
-                            <h5>Numerical Method Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3qyJVIaeHSqiRWOyO6HW023&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/basic-computing.jpg" alt="basic cover">
-                        <div class="subject-title">
-                            <h5>Basic Computing</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3p21lsneT3cW4CJL4Bd1lJ2&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Word.jpg" alt="word cover">
-                        <div class="subject-title">
-                            <h5>MS Word Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3ohKCQMR7aopneByGX05iSK&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Excel.jpg" alt="excel cover">
-                        <div class="subject-title">
-                            <h5>MS Excel Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3pBnrckqfJ2zn7FL6Q_LNcm&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/powerpoint.jpg" alt="powerpoint cover">
-                        <div class="subject-title">
-                            <h5>MS Powerpoint</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3" alt="ict playlist">           
-                        <img src="images/HTML.jpg" alt="html cover">
-                        <div class="subject-title">
-                            <h5>HTML Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-
-            <div class="row">
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO" alt="ict playlist">           
-                        <img src="images/css.jpg" alt="css cover">
-                        <div class="subject-title">
-                            <h5>CSS Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <!-- <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3o8Y-CKhmyodbfHAc9VSVOv&disable_polymer=true" alt="ict playlist">           
-                        <img src="images/Excel.jpg" alt="excel cover">
-                        <div class="subject-title">
-                            <h5>Bootstrap Tutorial</h5>
-                        </div>
-                    </a>
-                </div> -->
-    
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3qzryglMjcyEktz4q7ySunX" alt="ict playlist">           
-                        <img src="images/javascript.jpg" alt="js cover">
-                        <div class="subject-title">
-                            <h5>JavaScript Bangla Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-    
-                <div class="subject-card col-3 col-s-6"> 
-                    <a href="https://www.youtube.com/playlist?list=PLgH5QX0i9K3pSJG9Hwjnykd0hLGEsW4DB" alt="ict playlist">           
-                        <img src="images/jquery.jpg" alt="jq cover">
-                        <div class="subject-title">
-                            <h5>JQuery Tutorial</h5>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-
+          <div class="project-card col-3 col-s-6">
+            <a href="https://github.com/Memonul-Islam-Tuhin/my-node-blog">
+              <img src="./images/Node-Blog.jpg" alt="node blog" />
+              <div class="project-title">
+                <h5>My-node-blog</h5>
+              </div>
+            </a>
+          </div>
         </div>
-     
+
+        <div class="row">
+          <div class="project-card col-3 col-s-6">
+            <a
+              href="https://github.com/Memonul-Islam-Tuhin/rest-api-without-mongo-db"
+            >
+              <img
+                src="./images/reat-api-without-db.jpg"
+                alt="api without db"
+              />
+              <div class="project-title">
+                <h5>Rest-api-without-mongo-db</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card col-3 col-s-6">
+            <a href="https://github.com/Memonul-Islam-Tuhin/To-Do-Application">
+              <img
+                src="./images/to-do-application.jpg"
+                alt="to do application"
+              />
+              <div class="project-title">
+                <h5>To-Do-Application</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card col-3 col-s-6">
+            <a
+              href="https://github.com/Memonul-Islam-Tuhin/MIT-Budget"
+              alt="budget"
+            >
+              <img src="./images/budget.png" alt="budget" />
+              <div class="project-title">
+                <h5>MIT-Budget</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card col-3 col-s-6">
+            <a
+              href="https://github.com/Memonul-Islam-Tuhin/MIT-Validate-OTP"
+              alt="otp"
+            >
+              <img src="./images/otp.png" alt="otp" />
+              <div class="project-title">
+                <h5>MIT-Validate-OTP</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- tutorial div ends here  -->
-
+    <!-- projects div ends here  -->
 
     <!-- about me div starts here  -->
     <div class="about-me" id="about-me-id">
-        <h2>ABOUT ME</h2>
-        <hr class="dotted-hr">       
-        <div class="aboutme-image col-6">
-            <img src="images/anisul_islam.jpg" alt="">
-        </div>
-        <div class="aboutme-desc col-6">
-            <p>I like to call myself “a passionate computer science teacher & Web developer”. </p>
-            <p>I made lot of videos on different subjects. My first priority is making the subject more interesting and give you a clear understanding so you can feel it and don’t get bore.</p> 
-            
-            <hr class="aboutme-hr">
-            <p>Name: Anisul Islam</p> 
-            <hr class="aboutme-hr">
-            <p>Address: Tampere, Finland</p>
-            <hr class="aboutme-hr">
-            <p>Email: <a href="mailto:anisul2010s@yahoo.co.uk">anisul2010s@yahoo.co.uk</a> </p>
-            <hr class="aboutme-hr">
-            <p>Phone: <a href="tel:+358466150008">+35846615000</a> </p>
-            <hr class="aboutme-hr">
-            <p>Website: <a href="http://www.studywithanis.com" target="blank">www.studywithanis.com</a> </p>
-            <hr class="aboutme-hr">
-           
-            <p>
-                <a href="https://www.dropbox.com/s/hcrb4xwuvwpicf7/PERSONAL%20INFORMATIONAnisul%20Islam.pdf?dl=0" download="">
-                    <button class="cv-button">Download CV</button>
-                </a>
-            </p>
+      <h2>ABOUT ME</h2>
+      <hr class="dotted-hr" />
+      <div class="aboutme-image col-6">
+        <img
+          src="./images/Memonul Professional CV Image.png"
+          alt="memonul islam img"
+        />
+      </div>
+      <div class="aboutme-desc col-6">
+        <p>
+          I like to introduce myself as a self-taught backend web developer and
+          an aspiring undergraduate student.
+        </p>
+        <p>
+          I have completed my HSC (Science) and I am currently preparing for
+          university admission. Alongside my studies, I work with HTML, CSS,
+          GitHub, JavaScript, Tailwind CSS and Node.js to build modern and
+          responsive web applications.
+        </p>
 
-        </div>
+        <hr class="aboutme-hr" />
+        <p>Name: Memonul Islam Tuhin</p>
+        <hr class="aboutme-hr" />
+        <p>Location : Dhaka,Bangladesh</p>
+        <hr class="aboutme-hr" />
+        <p>Education : HSC (Science), 2024</p>
+        <hr class="aboutme-hr" />
+        <p>
+          Email:
+          <a href="mailto:memonulislam@gmail.com">memonulislam@gmail.com</a>
+        </p>
+        <hr class="aboutme-hr" />
+        <p>Phone: <a href="tel:+8801636514959">+8801636514959</a></p>
+        <hr class="aboutme-hr" />
+        <p>
+          Career Goal : To study CSE and become a professional Cyber Security
+        </p>
+        <hr class="aboutme-hr" />
 
+        <p>
+          <a
+            href="https://drive.google.com/file/d/1l4KLUaNiUd7v-LBSaeTDoNQaDD_3YCVj/view?usp=sharing"
+            target="_blank"
+            download=""
+          >
+            <button class="cv-button">Download CV</button>
+          </a>
+        </p>
+      </div>
     </div>
     <!-- about me div ends here  -->
 
-
     <!-- professional-experience div starts here  -->
     <div class="professional-experience">
-        <div class="work-experience col-4">  
-             <div class="card">
-                 <div class="card-icon">
-                     <!-- <i class="fa fa-briefcase fa-4x rounded-img" aria-hidden="true"></i> -->
-                     <img class="rounded-img" src="images/work.png" alt="">  
-                 </div>
-                 <div class="card-title">
-                     <h2>WORK EXPERIENCE</h2>
-                 </div>
-                 <div class="card-description">
-                     <ol>
-                         <li>
-                             <strong>Lecturer of Information & Communication Technology </strong><br>
-                             01/05/2016–01/08/2017 <br>
-                             Zhingabari High School & College <br>
-                             Kanaighat, Sylhet, 3180 Sylhet (Bangladesh) <br> 
-                         </li>
-                         <hr>
-                         <li>
-                             <strong>Lecturer of CSE Department</strong> <br>
-                             10/11/2017–06/04/2018 <br>
-                             Sylhet Engineering College <br>
-                             Tilagarh, Alurtol Road, 3100 Sylhet (Bangladesh) <br>
-                         </li>
-                         <hr>
-                         <li>
-                             <strong>Lecturer of Information & Communication Technology</strong> <br>
-                             01/07/2018–11/11/2018 <br>
-                             Jaflong Valley Boarding School <br>
-                             Jaflong, 3151 Sylhet (Bangladesh)<br>
-                         </li>
-                         <hr>
-                         <li>
-                             <strong>Youtuber, Lecturer of CSE & ICT</strong> <br>
-                             28/01/2010–Running <br>
-                             1,94,000 Online Student <br>
-                             1500 Videos on 17 different Computer Science Subjects<br>
-                             <a href="https://www.youtube.com/user/ANIS3730" target="blank">Visit my YouTube Channel</a><br>
-                         </li>
-                     </ol> 
-                 </div>           
-            
-             </div>     
-        </div>
- 
- 
-        <div class="education col-4">
-             <div class="card">
-                 <div class="card-icon">
-                     <!-- <i class="fa fa-briefcase fa-2x" aria-hidden="true"  style="font-size:120px;color:white"></i> -->
-                     <!-- <i class="fa fa-graduation-cap fa-4x rounded-img" aria-hidden="true"></i> -->
-                     <img class="rounded-img" src="images/book.png" alt="">  
-                 </div>
-                 <div class="card-title">
-                     <h2>EDUCATION AND TRAINING</h2>
-                 </div>
-                 <div class="card-description">
-                     <ol>
-                         <li>
-                            <strong>M.Sc. in Software Development</strong> <br>
-                            2019-2021 <br>
-                            Tampere University <br>
-                            Kalivantie 4, Tampere, 33100 <br>
-                            <a href="https://www.tuni.fi/" target="blank">https://www.tuni.fi/</a> <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong>B.Sc. in Computer Science & Engineering</strong> <br>
-                            2013-2017</br>
-                            Leading University <br>
-                            Ragib nagar, Ponaullah Bazar Rd, Kamal Bazar, 3112 Sylhet (Bangladesh)  <br>
-                            <a href="https://www.lus.ac.bd/" target="blank">https://www.lus.ac.bd/</a> <br>
-                            Result: A (3.92/4.00) <br>
-                         </li>
-                         <hr>
-                         <li>
-                            <strong>Professional Diploma in Travel & Tourism Marketing</strong> <br>
-                            2010-2012 <br>
-                            London School of Commerce and IT <br>
-                            59-66 Greenfield Road, London, E1 1EJ (United Kingdom)<br>
-                            <a href="http://www.lsci.org.uk/" target="blank">http://www.lsci.org.uk/</a> <br>
-                            Result: Merit <br>
-                         </li>
-                                     
-                     </ol> 
-                 </div>
-             </div>
-        </div>
- 
- 
-        <div class="skills col-4" id="skill-id">
-            <div class="card">
-                <div class="card-icon">                 
-                    <img class="rounded-img" src="images/skill.png" alt="">               
-                </div>
-                <div class="card-title">
-                    <h2>SKILLS</h2>
-                </div>
-                <div class="card-description">
-                    <div class="skills-container">
-                        <ul>
-                            <li class="html">HTML</li>
-                            <li class="css">CSS</li>
-                            <li class="bootstrap">Bootstrap</li>
-                            <li class="js">JavaSCript</li>
-                            <li class="jquery">JQuery</li>                           
-                            <li class="node">Node.js</li>
-                            <li class="express">Express.js</li>
-                            <li class="git">GitHub</li>
-                            <li class="react">React.js</li> 
-                        </ul>
-                    </div>                   
-                </div>
-            </div>
-        </div>
-     </div>
-     <!-- professional-experience div ends here  -->
+      <div class="work-experience col-4">
+        <div class="card">
+          <div class="card-icon">
+            <!-- <i class="fa fa-briefcase fa-4x rounded-img" aria-hidden="true"></i> -->
+            <img class="rounded-img" src="./images/work.png" alt="work" />
+          </div>
+          <div class="card-title">
+            <h2>WORK EXPERIENCE</h2>
+          </div>
+          <div class="card-description card-desc">
+            <ol>
+              <li>
+                <strong>Personal Portfolio Website</strong><br />
+                Built with HTML, CSS, JavaScript, Tailwind CSS <br />
+                <a href="https://github.com/Memonul-Islam-Tuhin" target="_blank"
+                  >View on GitHub</a
+                >
+              </li>
+              <hr />
+              <li>
+                <strong>Javascript To-Do App</strong><br />
+                Built with JavaSCript, HTML and CSS<br />
+                <a href="https://github.com/Memonul-Islam-Tuhin" target="_blank"
+                  >View on GitHub</a
+                >
+              </li>
+              <hr />
+              <li>
+                <strong>Responsive Landing Page</strong><br />
+                HTML, CSS, JavaScript<br />
+                <a href="https://github.com/Memonul-Islam-Tuhin" target="_blank"
+                  >View on GitHub</a
+                >
+              </li>
+              <hr />
 
+              <li>
+                <strong>Authentication System</strong><br />
+                Built with Node.js, Express.js & MongoDB<br />
+                <a
+                  href="https://github.com/Memonul-Islam-Tuhin"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="education col-4">
+        <div class="card">
+          <div class="card-icon">
+            <img
+              class="rounded-img"
+              src="./images/traning.png"
+              alt="education"
+            />
+          </div>
+          <div class="card-title">
+            <h2>EDUCATION</h2>
+          </div>
+          <div class="card-description card-desc">
+            <ol>
+              <li>
+                <strong>SSC (Science)</strong><br />
+                2020-2022 <br />
+                Pirozali High School, Bangladesh Gazipur, Pirozali, 1703 <br />
+              </li>
+              <hr />
+              <li>
+                <strong>HSC (Science)</strong><br />
+                2022-2024 <br />
+                Misir Ali Khan Memorial College, Bangladesh Gazipur, Kaliyakur,
+                1703 <br />
+              </li>
+              <hr />
+              <li>
+                <strong>I have successfully learned.</strong> <br />
+                2021-2025 <br />
+                HTML, CSS, Tailwind CSS, GitHub, Ejs, JavaScript, Node.js,
+                Express.js, and MongoDB<br />
+                Google,W3Schools,YouTube<br />
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills col-4" id="skill-id">
+        <div class="card">
+          <div class="card-icon">
+            <img class="rounded-img" src="./images/skill.png" alt="skill" />
+          </div>
+          <div class="card-title">
+            <h2>SKILLS</h2>
+          </div>
+          <div class="card-description">
+            <div class="skills-container">
+              <ul>
+                <li class="html">HTML</li>
+                <li class="css">CSS</li>
+                <li class="tailwindcss">Tailwind CSS</li>
+                <li class="js">JavaScript</li>
+                <li class="node">Node.js</li>
+                <li class="express">Express.js</li>
+                <li class="git">GitHub</li>
+                <li class="ejs">Ejs</li>
+                <li class="mongodb">MongoDB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- professional-experience div ends here  -->
 
     <!-- achievement-contact div starts here  -->
     <div class="achievement-contact">
-       <div class="achievement col-4">
-            <h2>ACHIEVEMENTS</h2>
-            <hr class="dotted-hr">
-            <p>1. 100% Tuition Waiver: Based on excellent academic result in Tampere university, Finland</p>
-            <p>2. Public Bank Scholarship: 40,000 TK, For scoring GPA 3.92/4.00 in B.Sc.</p>
-            <p>3. Silver Button from YouTube because of 100,000 Subscribers. Current Subscribers are more than 208,000.</p>
-            <p>4. IELTS 7 (Speaking-8.5, Listening-8, Writing-6, Reading-6) </p>
-       </div>
+      <div class="achievement col-4">
+        <h2>ACHIEVEMENTS</h2>
+        <hr class="dotted-hr" />
+        <p>1. Completed HSC (Science) with excellent results.</p>
+        <p>
+          2. Built 5+ personal Blog projects using HTML, CSS, JavaScript,
+          Tailwind CSS, and Node.js
+        </p>
+        <p>
+          3. Backend web developer with consistent practice and portfolio
+          showcase.
+        </p>
+        <p>
+          4. Completed multiple online courses in backend web development and
+          Node.js.
+        </p>
+      </div>
 
-       <div class="contact col-4" id="contact-me">
-           <h2>CONTACT ME</h2>
-           <hr class="dotted-hr">
-           <form action="mailto:anisul2010s@yahoo.co.uk" method="post" enctype="text/plain">
-               <p><input type="text" placeholder="Your Name" name="name"></p>
-               <p><input type="email" placeholder="Your Email" name="email"></p>
-               <textarea placeholder="Your Message Here" name="message" cols="30" rows="10"></textarea>
-               <button type="submit">SEND</button>
-               <button type="reset">RESET</button>
-            </form>
-       </div>
+      <div class="contact col-4" id="contact-me">
+        <h2>CONTACT ME</h2>
+        <hr class="dotted-hr" />
+        <form
+          action="mailto:memonulislam@gmail.com"
+          method="POST"
+          enctype="text/plain"
+        >
+          <p><input type="text" placeholder="Your Name" name="name" /></p>
+          <p><input type="email" placeholder="Your Email" name="email" /></p>
+          <textarea
+            placeholder="Your Message Here"
+            name="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="submit">SEND</button>
+          <button type="reset">RESET</button>
+        </form>
+      </div>
 
+      <div class="contact-links col-4">
+        <h2>More Ways to Contact</h2>
+        <hr class="dotted-hr" />
 
-       <div class="contact-links col-4" >
-            <h2>More Ways to Contact</h2>
-            <hr class="dotted-hr">        
-           
-            <div class="media-buttons">
-                <button class="btn" onclick="window.open('http://www.youtube.com/c/anisulislamrubel')" class="btn request-callback"><i class="media-icon fa fa-youtube-play" style="color: #c4302b;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('https://www.facebook.com/studywithanis')" class="btn request-callback"><i class="fa fa-facebook" style="color:  #3b5998;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('http://www.studywithanis.com/')" class="btn request-callback"> <span style="font-size: 1.7rem;">&#127760;</span> </i></button>
-                <button class="btn" onclick="window.open('http://www.youtube.com/c/anisulislamrubel')" class="btn request-callback"><i class="fa fa-skype" style="color:  #3b5998;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('https://www.linkedin.com/in/anisul-islam-515a7714a/')" class="btn request-callback"><i class="fa fa-linkedin" style="color:  #3b5998;" aria-hidden="true"></i></button>
-                <button class="btn" onclick="window.open('https://github.com/anisul-Islam')" class="btn request-callback"><i class="fa fa-github" aria-hidden="true" style="color: #000000;"></i></button>
-            </div>
-            
-            
-            <!-- 
+        <div class="media-buttons">
+          <button
+            class="btn"
+            onclick="window.open('https://www.youtube.com/@memonulislam')"
+            class="btn request-callback"
+            title="YouTube"
+          >
+            <i
+              class="media-icon fa fa-youtube-play"
+              style="color: #c4302b"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://www.facebook.com/memonul.islam.7')"
+            class="btn request-callback"
+            title="Facebook"
+          >
+            <i
+              class="fa fa-facebook"
+              style="color: #3b5998"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://x.com/MemonulI45655')"
+            class="btn request-callback"
+            title="Twitter"
+          >
+            <i
+              class="fa fa-twitter"
+              style="color: #1da1f2"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://www.instagram.com/memonul/')"
+            class="btn request-callback"
+            title="Instagram"
+          >
+            <i
+              class="fa fa-instagram"
+              style="color: #e1306c"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <button
+            class="btn"
+            onclick="
+              window.open(
+                'https://www.linkedin.com/in/memonul-islam-a3078b322/',
+              )
+            "
+            class="btn request-callback"
+            title="LinkedIn"
+          >
+            <i
+              class="fa fa-linkedin"
+              style="color: #3b5998"
+              aria-hidden="true"
+            ></i>
+          </button>
+          <button
+            class="btn"
+            onclick="window.open('https://github.com/Memonul-Islam-Tuhin')"
+            class="btn request-callback"
+            title="GitHub"
+          >
+            <i
+              class="fa fa-github"
+              aria-hidden="true"
+              style="color: #000000"
+            ></i>
+          </button>
+        </div>
+
+        <!-- 
                 <button class="btn"><i class="media-icon fa fa-youtube-play" style="color: #c4302b;" aria-hidden="true"></i>YouTube</button>
             -->
-        </div>
+      </div>
     </div>
     <!-- achievement-contact div ends here  -->
 
-    
     <!-- footer div starts here  -->
-    <div class="footer">          
-        <div class="footer-menu col-6">
-            <a href="#">Home</a>
-            <a href="#about-me-id">About Me</a>
-            <a href="#skill-id">Skills</a>
-            <a href="#tutorial-id">Tutorials</a>
-            <a href="#contact-me">Contact</a>
-        </div>
+    <div class="footer">
+      <div class="footer-menu col-6">
+        <a href="#">Home</a>
+        <a href="#about-me-id">About</a>
+        <a href="#skill-id">Skills</a>
+        <a href="#project">Projects</a>
+        <a href="#contact-me">Contact</a>
+      </div>
 
-        <div class="footer-desc col-6">
-            &copy; Anis 2020. Developed with <span style="color: red; font-size: 1.5rem;">❤</span> By Anisul Islam
-        </div>  
+      <div class="footer-desc col-6">
+        &copy; 2026. Developed with
+        <span style="color: red; font-size: 1.8rem">💕</span> by Memonul Islam
+      </div>
     </div>
-     <!-- footer div ends here  -->
-
-</body>
+    <!-- footer div ends here  -->
+  </body>
 </html>
